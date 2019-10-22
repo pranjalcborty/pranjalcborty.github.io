@@ -8,29 +8,12 @@ body {
     font-family: 'PT Serif', serif;
 }
 
-.full {
-    display: grid;
-    grid-template-columns: 70% 30%;
-}
-
 .content-box {
     background-color: rgb(245, 245, 245, 0.9);
     color: black;
     height: 100%;
+    width: 80%;
     min-height: 100vh;
-}
-
-.profile-box {
-    background-color: rgb(27, 27, 27, 0.95);
-    color: whitesmoke;
-}
-
-.profile-box > div > p {
-    font-size: 1.5em;
-    line-height: 1.4em;
-    letter-spacing: 0.07em;
-    font-weight: 530;
-    margin-top: 5%;
 }
 
 .content {
@@ -41,18 +24,18 @@ body {
     text-justify: newspaper;
 }
 
-.profile-image {
-    margin-top: 30%;
-    text-align: center;
+.grid {
+    display: grid;
+    grid-template-columns: 17% 30%;
 }
 
 h2 {
     font-size: 3em;
 }
 
-p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+p, li {
+    font-size: 1.3em;
+    line-height: 1.3em;
 }
 
 section {
