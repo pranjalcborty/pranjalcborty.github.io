@@ -13,7 +13,6 @@ body {
     color: black;
     height: 100%;
     width: 80%;
-    min-height: 100vh;
 }
 
 .content {
@@ -29,6 +28,10 @@ body {
     grid-template-columns: 17% 60%;
 }
 
+a {
+    color: blue;
+}
+
 h2 {
     font-size: 3em;
 }
@@ -40,4 +43,32 @@ p, li {
 
 section {
     margin: 5%;
+}
+
+button {
+    float: right;
+    padding: 5px 15px;
+    font-size: 1.05em;
+    background-color: black;
+    color: rgb(245, 245, 245);
+    border-radius: 2px;
+    border: 0;
+    font-family: inherit;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:focus {
+    outline: 0;
+}
+ 
+ /* added for Firefox compatability */
+button::-moz-focus-inner { border:0; }
+
+@media only screen and (max-width: 768px) {
+    .content-box {
+        min-width: 100%;
+    }
 }
