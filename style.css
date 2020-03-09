@@ -6,7 +6,11 @@ body {
     background-size: cover;
     margin: 0;
     font-family: 'PT Serif', serif;
-    overflow: hidden;
+    -ms-overflow-style: none;
+}
+
+-webkit-scrollbar {
+    display: none;
 }
 
 .content-box {
