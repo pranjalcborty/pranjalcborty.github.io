@@ -1,11 +1,11 @@
 body {
-    background-image: url('https://picsum.photos/2160/1080');
+    background-image: url("https://picsum.photos/2160/1080");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-    font-family: 'PT Serif', serif;
+    font-family: "Roboto Slab", serif;
 }
 
 .content-box {
@@ -42,7 +42,8 @@ h2 {
     font-size: 3em;
 }
 
-p, li {
+p,
+li {
     font-size: 1.3em;
     line-height: 1.3em;
 }
@@ -69,9 +70,11 @@ button:hover {
 button:focus {
     outline: 0;
 }
- 
- /* added for Firefox compatability */
-button::-moz-focus-inner { border:0; }
+
+/* added for Firefox compatability */
+button::-moz-focus-inner {
+    border: 0;
+}
 
 @media only screen and (max-width: 768px) {
     .content-box {
