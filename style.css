@@ -88,4 +88,17 @@ button::-moz-focus-inner {
     .imageFace {
         width: 40%;
     }
+    
+    h2 {
+        font-size: 2em;
+    }
+
+    p,
+    li {
+        font-size: 1em;
+    }
+    
+    button {
+        font-size: 1em;
+    }
 }
