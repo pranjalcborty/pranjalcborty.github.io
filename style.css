@@ -19,6 +19,9 @@ body {
     padding: 20px;
     overflow: auto;
     letter-spacing: 0.03em;
+}
+
+.justify {
     text-align: justify;
     text-justify: newspaper;
 }
