@@ -29,11 +29,11 @@ body {
 .grid {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: repeat(1, 1fr);
 }
 
 .imageFace {
-    width: 100%;
+    width: 40%;
     max-width: 250px;
 }
 
@@ -82,14 +82,6 @@ button::-moz-focus-inner {
 @media only screen and (max-width: 768px) {
     .content-box {
         min-width: 100%;
-    }
-
-    .grid {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
-    .imageFace {
-        width: 40%;
     }
     
     h2 {
