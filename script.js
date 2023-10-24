@@ -9,7 +9,7 @@ button.addEventListener("click", function () {
     if (button.textContent === '🌙') {
         button.style.backgroundColor = 'rgb(245, 245, 245)';
         button.style.color = 'black';
-        button.textContent = '☀️';
+        button.textContent = '🌕';
 
         urlLinkedinImg.setAttribute("src", "./resources/icons/linkedin-dark.png");
         urlGithubImg.setAttribute("src", "./resources/icons/github-dark.png");
