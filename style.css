@@ -31,6 +31,7 @@ article {
 }
 
 button {
+    font-family: "Roboto Slab", serif;
     float: right;
     padding: 10px 10px;
     font-size: 1.05em;
